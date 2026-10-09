@@ -1,0 +1,75 @@
+# === Секреты и ключи (НИКОГДА не коммитить) ===
+*.pem
+*.key
+*.crt
+*.cer
+*.pfx
+*.p12
+private_*
+public_*
+.env
+.env.*
+*.env
+Keys/
+D:\Keys
+
+# === Токены и пароли ===
+*_tokens.txt
+*token*.txt
+*secret*.txt
+*password*.txt
+
+# === Билды и бинарники (EXE идёт через Releases, не в репо) ===
+*.exe
+*.msi
+*.dll
+*.so
+*.dylib
+build/
+dist/
+_build_protected/
+out/
+
+# === Бэкапы и временное ===
+_backup/
+_backup*
+_trash/
+_quarantine/
+_ARCHIVE_*
+*_backup.*
+*.bak
+*.tmp
+*.old
+*.orig
+*.log
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+
+# === IDE / OS ===
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Прочее ===
+image1.png
+image2.png
+projectcheck_window.png
+*.zip
